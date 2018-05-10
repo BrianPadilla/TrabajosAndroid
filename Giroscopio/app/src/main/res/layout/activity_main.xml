@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.cabo.acelerometro.MainActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <TextView
+        android:id="@+id/ejex"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="45dp"
+        android:layout_marginTop="76dp"
+        app:layout_constraintBottom_toTopOf="@+id/ejey"
+        app:layout_constraintEnd_toEndOf="@+id/ejez"
+        app:layout_constraintStart_toStartOf="@+id/ejey"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ejey"
+        android:layout_width="82dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="60dp"
+        android:layout_marginEnd="3dp"
+        app:layout_constraintBottom_toTopOf="@+id/ejez"
+        app:layout_constraintEnd_toEndOf="@+id/ejez"
+        app:layout_constraintTop_toBottomOf="@+id/ejex" />
+
+    <TextView
+        android:id="@+id/ejez"
+        android:layout_width="77dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="216dp"
+        android:layout_marginEnd="136dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ejey" />
+
+</android.support.constraint.ConstraintLayout>
