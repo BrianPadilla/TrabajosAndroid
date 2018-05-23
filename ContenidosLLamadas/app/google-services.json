@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "104050683642",
+    "firebase_url": "https://contactos-5e749.firebaseio.com",
+    "project_id": "contactos-5e749",
+    "storage_bucket": "contactos-5e749.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:104050683642:android:e6b4d98574e5eef6",
+        "android_client_info": {
+          "package_name": "com.example.cabo.contenidosllamadas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "104050683642-04c1s9s2ik4ord5vrf5qnjm8am0l44nm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cabo.contenidosllamadas",
+            "certificate_hash": "00fa2d6fcc5f8ccf0b94833ddd3a1e35095efd31"
+          }
+        },
+        {
+          "client_id": "104050683642-0ia1dcejoe6a8bc0clk0u8b8nt7sfiu9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAM2eicOzGOxB0rmocYR3a329aIkM23Vu4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "104050683642-0ia1dcejoe6a8bc0clk0u8b8nt7sfiu9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
